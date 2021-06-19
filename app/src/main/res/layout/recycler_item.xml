@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp"
+    android:id="@+id/cardView"
+    android:layout_margin="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/bookLogo"
+            android:layout_width="100dp"
+            android:layout_centerVertical="true"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/finalwhitelogo"/>
+
+            <TextView
+                android:id="@+id/lblTitle"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/bookLogo"
+                android:layout_marginLeft="10sp"
+                android:layout_height="wrap_content"
+                android:text="Title: "
+                android:textColor="@color/one"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/title1"
+                android:layout_toRightOf="@+id/lblTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@color/one"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/lblDesc"
+                android:layout_below="@id/lblTitle"
+                android:layout_toRightOf="@+id/bookLogo"
+                android:layout_marginLeft="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description: "
+                android:textColor="@color/one"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_below="@+id/title1"
+                android:layout_toRightOf="@id/lblDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description "
+                android:textColor="@color/one"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/lblCategory"
+                android:layout_below="@+id/lblDesc"
+                android:layout_toRightOf="@+id/bookLogo"
+                android:layout_marginLeft="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category: "
+                android:textColor="@color/one"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/category1"
+                android:layout_below="@+id/desc1"
+                android:layout_toRightOf="@+id/lblCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="category "
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/one"
+                android:textSize="14sp" />
+
+
+
+
+            <TextView
+                android:id="@+id/lblFor"
+                android:layout_below="@id/lblCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bookLogo"
+                android:layout_marginLeft="10sp"
+                android:text="For:"
+                android:textColor="@color/one"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/for1"
+                android:layout_below="@id/category1"
+                android:layout_toRightOf="@+id/lblFor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/one"
+                android:textSize="14sp" />
+
+
+
+            <TextView
+                android:id="@+id/lblPrice"
+                android:layout_below="@id/lblFor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bookLogo"
+                android:layout_marginLeft="10sp"
+                android:text="Price: "
+                android:textColor="@color/one"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/price1"
+                android:layout_below="@id/for1"
+                android:layout_toRightOf="@id/lblPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/one"
+                android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/lblPhone"
+            android:layout_below="@id/lblPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/bookLogo"
+            android:layout_marginLeft="10sp"
+            android:text="Phone: "
+            android:textColor="@color/one"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/Phone1"
+            android:layout_below="@id/price1"
+            android:layout_toRightOf="@id/lblPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/one"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

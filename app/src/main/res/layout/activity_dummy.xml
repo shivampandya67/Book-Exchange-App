@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_700"
+    android:id="@+id/parent_layout"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="20dp"
+        android:background="@color/teal_700">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:id="@+id/full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:includeFontPadding="false"
+            android:layout_below="@id/profile_image"
+            android:fontFamily="@font/bungee"
+            android:textColor="@color/three"
+            android:textStyle="bold"
+            android:text="Book exchange"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:includeFontPadding="false"
+            android:layout_marginTop="2sp"
+            android:textColor="@color/three"
+            android:textStyle="bold"
+            android:layout_below="@+id/full_name"
+            android:text="user123"
+            android:textSize="19sp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

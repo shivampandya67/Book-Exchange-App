@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "545037711000",
+    "firebase_url": "https://book-holic-32f2a-default-rtdb.firebaseio.com",
+    "project_id": "book-holic-32f2a",
+    "storage_bucket": "book-holic-32f2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545037711000:android:759821851ffbc10c2a02ed",
+        "android_client_info": {
+          "package_name": "com.example.book_holic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545037711000-rgcdpl5a60hqmr5l4utbti6jalf3siv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.book_holic",
+            "certificate_hash": "02ddc57bde2261c157078cb4d675bfecaeed92cd"
+          }
+        },
+        {
+          "client_id": "545037711000-r3jmlsn9rcebk1eg4ueg8jg457rb54iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9VH45PfBRdImrWAHt8cMJf3rzXbzR4NY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545037711000-r3jmlsn9rcebk1eg4ueg8jg457rb54iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
